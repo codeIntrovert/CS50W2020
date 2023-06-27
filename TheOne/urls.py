@@ -3,5 +3,6 @@ from . import views
 
 #url config
 urlpatterns = [
-    path('hello/', views.say_hello)
+    path('', views.quranAPI),
+    path('index/', views.showIndex)
 ]
